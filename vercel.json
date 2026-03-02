@@ -1,5 +1,6 @@
 {
   "routes": [
+    { "src": "/(.*)\\.(css|js|png|jpg|jpeg|gif|svg|webp|ico)", "dest": "/$1" },
     { "src": "/(.*)", "dest": "/stonepaperscissors.html" }
   ]
 }
